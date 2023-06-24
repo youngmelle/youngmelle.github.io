@@ -81,6 +81,7 @@
   h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    --picture-size: 1em;
   }
   
   p {
@@ -113,12 +114,12 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
   }
-
+  
   .blog-post-image {
-    vertical-align: middle; 
-    margin-right: 10px; 
-    width: 50px; 
-    height: 50px; 
+    vertical-align: middle;
+    margin-right: 10px;
+    width: var(--picture-size);
+    height: var(--picture-size);
   }
   
   /* Footer (Contact) section styles */
