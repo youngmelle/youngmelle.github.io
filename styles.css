@@ -160,6 +160,14 @@
     color: inherit
   }
   
+  .blog-post-image {
+    vertical-align: middle; /* Adjust alignment if needed */
+    margin-right: 10px; /* Add spacing between the image and heading */
+    width: 50px; /* Adjust the width of the image as per your preference */
+    height: 50px; /* Adjust the height of the image as per your preference */
+  }
+  
+  
   /* Responsive styles */
   @media screen and (max-width: 768px) {}
 /* Adjust styles for smaller screens
